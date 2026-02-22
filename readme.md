@@ -98,6 +98,8 @@ Deduplication using window functions.
 Place CSV files in:
 /Volumes/luxottica/bronze/raw_files/
 
+Both notebooks should be imported into the same Databricks workspace folder before execution.
+
 Run:
 luxottica-orchestrator
 The orchestrator will automatically:
