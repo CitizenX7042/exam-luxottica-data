@@ -112,6 +112,14 @@ After execution:
 Check luxottica.silver.orders
 Check luxottica.gold.file_ingestion_tracker
 
+🧠 Assumptions
+
+- Only one orchestrator job runs at a time.
+- Files are uniquely identified by file_path.
+- order_id uniquely identifies a business record.
+- Bronze layer is immutable.
+
+
 🔮 Possible Improvements
 
 Introduce run_id to fully isolate concurrent executions.
